@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  width: 100%;
+  height: 100%;
+}
+#nav1{
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  font-family: jost light;
+  font-weight: 500;
+  width: 100%;
+  height: 5%;
+  padding: 20px 50px;
+}
+#nav1 :nth-child(2){
+  color: grey; 
+}
+#nav1 p{
+  font-size: small;
+}
+#nav2{
+  width: 100%;
+  height: 10%;
+  font-family: jost light ;
+  font-size: small;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80px;
+  padding-left: 35px;
+}
+#middle1{
+  width: 100%;
+  height: 10%;
+}
+.one{
+  position: absolute;
+  top: 22%;
+  bottom: 50%;
+  font-size: x-large;
+  font-weight: 500;
+  font-family: jost light ;
+  left: 32%
+}
+.two{
+  position: absolute;
+  top: 22%;
+  bottom: 50%;
+  font-size: x-large;
+  color: rgb(179, 179, 179);
+  font-weight: 100;
+  font-family: jost light ;
+  left: 38%;
+}
+.three{
+  position: absolute;
+  top: 22%;
+  bottom: 50%;
+  font-size: x-large;
+  font-weight: 1000;
+  font-family: jost light ;
+  right: 8%;
+}
+#middle2{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 50px;
+  font-family: jost light;
+  overflow-x: auto;
+  font-weight: 500;
+}
+#middle2::-webkit-scrollbar{
+  background-color: transparent;
+  height: 7px;
+}
+#middle2::-webkit-scrollbar-thumb{
+  background-color: orangered;
+}
+.elem{
+  flex-shrink: 0;
+  width: 55%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#image{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  overflow-x: auto;
+}
+#image::-webkit-scrollbar{
+  display: none;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+}
